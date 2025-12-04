@@ -55,6 +55,7 @@ export
   Datum73,
   DHDN,
   ED50,
+  ED77,
   ED79,
   ED87,
   GDA94,

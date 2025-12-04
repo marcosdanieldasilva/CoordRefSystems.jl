@@ -243,6 +243,17 @@ abstract type ED50 <: Datum end
 ellipsoid(::Type{ED50}) = Intl🌎
 
 """
+    ED77
+
+European Datum 1950 (ED77) – variant used primarily in Iran and Middle East.
+
+See <https://epsg.org/datum_6154/European-Datum-1950-ED77.html>
+"""
+abstract type ED77 <: Datum end
+
+ellipsoid(::Type{ED77}) = Intl🌎
+
+"""
     ED79
 
 European Datum 1979.
